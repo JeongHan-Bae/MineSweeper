@@ -83,7 +83,7 @@ These suggestions showcase the versatility of the Minesweeper codebase, empoweri
 
 
 ## Gaming GUI Example 
-<div style="text-align:center">
+<div align="center">
   <img src="https://github.com/JeongHan-Bae/MineSweeper/assets/128088756/85890608-772c-4554-a93a-9bce3b6d3e90" alt="Minesweeper Game GUI Example">
 </div>
 
