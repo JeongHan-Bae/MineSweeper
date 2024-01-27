@@ -9,8 +9,8 @@ MinesImpl::MinesImpl(const int row, const int col, const char **& charArray,
     if (row <= 0 || col <= 0) {
         throw std::invalid_argument("Invalid input.");
     }
-    // Clean up existing data pointed by charArray and boolArray if they are not null
-
+          
+    // Declare temporary pointers for assigning charArray and boolArray
     char** tempCharArray = new char*[row];
     bool** tempBoolArray = new bool*[row];
 
@@ -172,7 +172,7 @@ MinesImpl& MinesImpl::operator=(const MinesImpl& other) {
     return *this;
 }
 
-
+// Use stack to realize Iterative Loop
 void MinesImpl::Reveal(const int Pos) {
     // Use the X * UsageCol + Y as Pos
     std::stack<int> parsingStack;
